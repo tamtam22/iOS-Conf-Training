@@ -1,8 +1,8 @@
-#name: Dependency Check
+name: Dependency Check
 
 on: [push,pull_request]
 
-#jobs:
+jobs:
   depchecktest:
     runs-on: ubuntu-latest
     name: depecheck_test
